@@ -1,8 +1,8 @@
-function formatMessage(message, maxLenght) {
-  if (message.lenght <= maxLenght) {
+function formatMessage(message, maxLength) {
+  if (message.length <= maxLength) {
     return message;
   } else {
-    return message.slice(0, maxLenght) + "...";
+    return message.slice(0, maxLength) + "...";
   }
 }
 console.log(formatMessage("Curab itur ligula sapien", 16));
